@@ -33,7 +33,7 @@ def CheckWin(board):
         game_running = False
         print(game_running)
     elif board[3] == board[4] == board[5] and board[3] != "-":
-        winner = board[1]
+        winner = board[3]
         print("winner: " + winner)
         game_running = False
     elif board[6] == board[7] == board[8] and board[6] != "-":
